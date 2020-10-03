@@ -7,25 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB1CCAF5251E0BB1009AD52B /* SearchRates.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1CCAF4251E0BB1009AD52B /* SearchRates.swift */; };
 		CB8BE39B24A8AA2D000D5FA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8BE39A24A8AA2D000D5FA2 /* AppDelegate.swift */; };
 		CB8BE39D24A8AA2D000D5FA2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8BE39C24A8AA2D000D5FA2 /* SceneDelegate.swift */; };
-		CB8BE39F24A8AA2D000D5FA2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8BE39E24A8AA2D000D5FA2 /* ViewController.swift */; };
+		CB8BE39F24A8AA2D000D5FA2 /* RateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8BE39E24A8AA2D000D5FA2 /* RateViewController.swift */; };
 		CB8BE3A224A8AA2D000D5FA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB8BE3A024A8AA2D000D5FA2 /* Main.storyboard */; };
 		CB8BE3A524A8AA2D000D5FA2 /* Rate.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CB8BE3A324A8AA2D000D5FA2 /* Rate.xcdatamodeld */; };
 		CB8BE3A724A8AA2E000D5FA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB8BE3A624A8AA2E000D5FA2 /* Assets.xcassets */; };
 		CB8BE3AA24A8AA2E000D5FA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB8BE3A824A8AA2E000D5FA2 /* LaunchScreen.storyboard */; };
+		CB8BE3B324A8B1FE000D5FA2 /* CurrentRateData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8BE3B224A8B1FE000D5FA2 /* CurrentRateData.swift */; };
+		CB8BE3B624A8B3A8000D5FA2 /* CurrentRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8BE3B524A8B3A8000D5FA2 /* CurrentRate.swift */; };
+		CB8BE3B824A8C4A7000D5FA2 /* NetworkRateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8BE3B724A8C4A7000D5FA2 /* NetworkRateManager.swift */; };
+		CB8BE3BE24A9FC4B000D5FA2 /* RateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8BE3BD24A9FC4B000D5FA2 /* RateTableViewCell.swift */; };
+		CB8BE3C024AA699F000D5FA2 /* CurrencyDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8BE3BF24AA699F000D5FA2 /* CurrencyDictionary.swift */; };
+		CB8BE3CB24ACE213000D5FA2 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8BE3C924ACE213000D5FA2 /* CalculatorViewController.swift */; };
+		CB8BE3CE24ACE2A0000D5FA2 /* WorkWithTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8BE3CD24ACE2A0000D5FA2 /* WorkWithTable.swift */; };
+		CB8BE3D224AF680D000D5FA2 /* CalculatorData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8BE3D124AF680D000D5FA2 /* CalculatorData.swift */; };
+		CB8BE3D424AF6843000D5FA2 /* NetworkCalculatorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8BE3D324AF6843000D5FA2 /* NetworkCalculatorManager.swift */; };
+		CB8BE3D824AF6E18000D5FA2 /* CurrentCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8BE3D724AF6E18000D5FA2 /* CurrentCalculator.swift */; };
+		CB8BE3DA24B2064E000D5FA2 /* CashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8BE3D924B2064E000D5FA2 /* CashViewController.swift */; };
+		CB8BE3DD24B212D8000D5FA2 /* CashTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8BE3DC24B212D8000D5FA2 /* CashTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CB1CCAF4251E0BB1009AD52B /* SearchRates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRates.swift; sourceTree = "<group>"; };
 		CB8BE39724A8AA2D000D5FA2 /* Rate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB8BE39A24A8AA2D000D5FA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB8BE39C24A8AA2D000D5FA2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CB8BE39E24A8AA2D000D5FA2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CB8BE39E24A8AA2D000D5FA2 /* RateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateViewController.swift; sourceTree = "<group>"; };
 		CB8BE3A124A8AA2D000D5FA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CB8BE3A424A8AA2D000D5FA2 /* Rate.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Rate.xcdatamodel; sourceTree = "<group>"; };
 		CB8BE3A624A8AA2E000D5FA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB8BE3A924A8AA2E000D5FA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB8BE3AB24A8AA2E000D5FA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB8BE3B224A8B1FE000D5FA2 /* CurrentRateData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentRateData.swift; sourceTree = "<group>"; };
+		CB8BE3B524A8B3A8000D5FA2 /* CurrentRate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentRate.swift; sourceTree = "<group>"; };
+		CB8BE3B724A8C4A7000D5FA2 /* NetworkRateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRateManager.swift; sourceTree = "<group>"; };
+		CB8BE3BD24A9FC4B000D5FA2 /* RateTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateTableViewCell.swift; sourceTree = "<group>"; };
+		CB8BE3BF24AA699F000D5FA2 /* CurrencyDictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyDictionary.swift; sourceTree = "<group>"; };
+		CB8BE3C924ACE213000D5FA2 /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
+		CB8BE3CD24ACE2A0000D5FA2 /* WorkWithTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkWithTable.swift; sourceTree = "<group>"; };
+		CB8BE3D124AF680D000D5FA2 /* CalculatorData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorData.swift; sourceTree = "<group>"; };
+		CB8BE3D324AF6843000D5FA2 /* NetworkCalculatorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkCalculatorManager.swift; sourceTree = "<group>"; };
+		CB8BE3D724AF6E18000D5FA2 /* CurrentCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentCalculator.swift; sourceTree = "<group>"; };
+		CB8BE3D924B2064E000D5FA2 /* CashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashViewController.swift; sourceTree = "<group>"; };
+		CB8BE3DC24B212D8000D5FA2 /* CashTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +84,85 @@
 		CB8BE39924A8AA2D000D5FA2 /* Rate */ = {
 			isa = PBXGroup;
 			children = (
-				CB8BE39A24A8AA2D000D5FA2 /* AppDelegate.swift */,
-				CB8BE39C24A8AA2D000D5FA2 /* SceneDelegate.swift */,
-				CB8BE39E24A8AA2D000D5FA2 /* ViewController.swift */,
-				CB8BE3A024A8AA2D000D5FA2 /* Main.storyboard */,
-				CB8BE3A624A8AA2E000D5FA2 /* Assets.xcassets */,
-				CB8BE3A824A8AA2E000D5FA2 /* LaunchScreen.storyboard */,
+				CB8BE3B424A8B202000D5FA2 /* Models */,
+				CB8BE3B924A8E09F000D5FA2 /* Views */,
+				CB8BE3CF24ACE2A7000D5FA2 /* Controllers */,
+				CB8BE3B124A8B188000D5FA2 /* Supporting files */,
 				CB8BE3AB24A8AA2E000D5FA2 /* Info.plist */,
-				CB8BE3A324A8AA2D000D5FA2 /* Rate.xcdatamodeld */,
 			);
 			path = Rate;
+			sourceTree = "<group>";
+		};
+		CB8BE3B124A8B188000D5FA2 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				CB8BE3A824A8AA2E000D5FA2 /* LaunchScreen.storyboard */,
+				CB8BE39A24A8AA2D000D5FA2 /* AppDelegate.swift */,
+				CB8BE39C24A8AA2D000D5FA2 /* SceneDelegate.swift */,
+				CB8BE3A624A8AA2E000D5FA2 /* Assets.xcassets */,
+				CB8BE3A324A8AA2D000D5FA2 /* Rate.xcdatamodeld */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		CB8BE3B424A8B202000D5FA2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CB8BE3C824ACE195000D5FA2 /* Rate */,
+				CB8BE3D024AF67C3000D5FA2 /* Calculator */,
+				CB8BE3DB24B2127E000D5FA2 /* Cash */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CB8BE3B924A8E09F000D5FA2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CB8BE3A024A8AA2D000D5FA2 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CB8BE3C824ACE195000D5FA2 /* Rate */ = {
+			isa = PBXGroup;
+			children = (
+				CB8BE3B224A8B1FE000D5FA2 /* CurrentRateData.swift */,
+				CB8BE3B524A8B3A8000D5FA2 /* CurrentRate.swift */,
+				CB8BE3B724A8C4A7000D5FA2 /* NetworkRateManager.swift */,
+				CB8BE3BD24A9FC4B000D5FA2 /* RateTableViewCell.swift */,
+				CB8BE3BF24AA699F000D5FA2 /* CurrencyDictionary.swift */,
+			);
+			path = Rate;
+			sourceTree = "<group>";
+		};
+		CB8BE3CF24ACE2A7000D5FA2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CB8BE39E24A8AA2D000D5FA2 /* RateViewController.swift */,
+				CB8BE3C924ACE213000D5FA2 /* CalculatorViewController.swift */,
+				CB8BE3D924B2064E000D5FA2 /* CashViewController.swift */,
+				CB8BE3CD24ACE2A0000D5FA2 /* WorkWithTable.swift */,
+				CB1CCAF4251E0BB1009AD52B /* SearchRates.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CB8BE3D024AF67C3000D5FA2 /* Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				CB8BE3D124AF680D000D5FA2 /* CalculatorData.swift */,
+				CB8BE3D724AF6E18000D5FA2 /* CurrentCalculator.swift */,
+				CB8BE3D324AF6843000D5FA2 /* NetworkCalculatorManager.swift */,
+			);
+			path = Calculator;
+			sourceTree = "<group>";
+		};
+		CB8BE3DB24B2127E000D5FA2 /* Cash */ = {
+			isa = PBXGroup;
+			children = (
+				CB8BE3DC24B212D8000D5FA2 /* CashTableViewCell.swift */,
+			);
+			path = Cash;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +236,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB8BE39F24A8AA2D000D5FA2 /* ViewController.swift in Sources */,
+				CB8BE3D424AF6843000D5FA2 /* NetworkCalculatorManager.swift in Sources */,
+				CB8BE3CB24ACE213000D5FA2 /* CalculatorViewController.swift in Sources */,
+				CB8BE3C024AA699F000D5FA2 /* CurrencyDictionary.swift in Sources */,
+				CB1CCAF5251E0BB1009AD52B /* SearchRates.swift in Sources */,
+				CB8BE39F24A8AA2D000D5FA2 /* RateViewController.swift in Sources */,
+				CB8BE3DD24B212D8000D5FA2 /* CashTableViewCell.swift in Sources */,
+				CB8BE3CE24ACE2A0000D5FA2 /* WorkWithTable.swift in Sources */,
 				CB8BE3A524A8AA2D000D5FA2 /* Rate.xcdatamodeld in Sources */,
+				CB8BE3D224AF680D000D5FA2 /* CalculatorData.swift in Sources */,
+				CB8BE3B324A8B1FE000D5FA2 /* CurrentRateData.swift in Sources */,
+				CB8BE3BE24A9FC4B000D5FA2 /* RateTableViewCell.swift in Sources */,
+				CB8BE3D824AF6E18000D5FA2 /* CurrentCalculator.swift in Sources */,
+				CB8BE3B624A8B3A8000D5FA2 /* CurrentRate.swift in Sources */,
+				CB8BE3B824A8C4A7000D5FA2 /* NetworkRateManager.swift in Sources */,
 				CB8BE39B24A8AA2D000D5FA2 /* AppDelegate.swift in Sources */,
+				CB8BE3DA24B2064E000D5FA2 /* CashViewController.swift in Sources */,
 				CB8BE39D24A8AA2D000D5FA2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,7 +406,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Roman.Rate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -316,7 +424,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Roman.Rate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
